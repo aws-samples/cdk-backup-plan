@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'cdk-backup-plan',
   description: 'CDK construct to create AWS Backup Plans',
-  repositoryUrl: 'https://github.com/<owner>/cdk-backup-plan.git',
+  repositoryUrl: 'https://github.com/aws-samples/cdk-backup-plan.git',
   license: 'MIT-0',
   bundledDeps: ['@types/jest@27.5.2'], // see: https://github.com/aws/jsii/issues/3619
   publishToPypi: {
